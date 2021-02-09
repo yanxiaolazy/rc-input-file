@@ -1,0 +1,58 @@
+:root {
+  --theme: rgba(112, 182, 115, 1);
+  --green: rgba(112, 182, 115, .8);
+  --progress-bg-color: var(--green);
+  --progress-font-color: var(--progress-bg-color);
+}
+.rc-input-file-progress {
+  display: grid;
+  grid-template-columns: auto 30px;
+  column-gap: 5px;
+  width: 100%;
+}
+.rc-input-file-progress
+span:first-child {
+  background-color: var(--progress-bg-color);
+  height: 2px;
+  align-self: center;
+  transition: width .5s;
+}
+.rc-input-file-progress
+span:last-child {
+  color: var(--progress-font-color);
+  align-self: center;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.rc-input-file-loaded-image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+}
+.rc-input-file-loaded-image
+img {
+  height: 30px;
+}
+
+.rc-input-file-loaded-image
+span {
+  padding: 0 5px;
+}
+
+.rc-input-file-button {
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: var(--theme);
+  color: #fff;
+  transition: background-color .5s;
+  cursor: pointer;
+  outline: none;
+}
+.rc-input-file-button:hover {
+  background-color: var(--green);
+}

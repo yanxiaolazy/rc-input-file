@@ -1,0 +1,10 @@
+node_modules
+build
+dist
+.DS_Store
+yarn-error.log
+test
+.gitignore
+webpack.config.js
+demo
+script
