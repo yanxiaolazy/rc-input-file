@@ -1,4 +1,8 @@
 ## rc-input-file
+[![NPM version](https://img.shields.io/npm/v/rc-input-file.svg?style=flat)](https://www.npmjs.com/package/rc-input-file) [![Build Status](https://travis-ci.org/yanxiaolazy/rc-input-file.svg?branch=master)](https://travis-ci.org/yanxiaolazy/rc-input-file)[![Coverage Status](https://coveralls.io/repos/github/yanxiaolazy/rc-input-file/badge.svg)](https://coveralls.io/github/yanxiaolazy/rc-input-file)
+
+
+
 
 select the image and upload it to the back endInstall.
 
