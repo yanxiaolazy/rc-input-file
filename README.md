@@ -1,6 +1,6 @@
 ## rc-input-file
 
-select the image and upload it to the back endInstall.
+select the image and upload it to the back end.
 
 ### Installation
 
